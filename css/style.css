@@ -24,3 +24,16 @@ strong{
     background: yellow;
     color: black;
 }
+.accent-color{
+    color: yellow;
+}
+a:link, a:visited{
+    color: #ffe600;
+}
+a:focus,a:hover{
+    color: aquamarine;
+}
+
+a:active{
+    color:plum;
+}
