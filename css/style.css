@@ -1,39 +1,79 @@
-body {
-    font-size: 16px;
+body { margin: 0;
+    background: #fff;
+    color: #000;
+    font-family: 'Lato', sans-serif;
 }
 
-h1{
-    color: #2e7ad3;
-    font-size: 48px;
-    text-align: center;
-    margin: 45px 0;
+h1,h2 {
+    margin-top: 0;
 }
-h2{
-    color: #104c90;
-    font-size: 32px;
-    margin: 0 0 10px 0;
-    text-align: left;
+h1 {
+    font-size: 24px;
+}
+header, section {
+    max-width: 620px;
+    margin: 0 auto;
+}
+header {
+    background: #2e354f;
+    color: #fff;
 }
 p{
     font-size:16px;
     text-align: left;
+    color: #000;
 }
-img{
-    width:450px;
+img {
+    width: 620px;
 }
 a{
-    color: #ff8000;
+    color: #ef5839;
     font-weight: bold;
 }
 a:hover, a:focus{
-    color: #104c90;
+    color: yellow;
 }
-.blog-post{
-    background: #f1f1f1;
-    width: 450px;
-    padding: 25px;
-    margin: 0 auto;
+header, section{
+    padding: 50px;
+    
 }
-.read-more {
-    margin-bottom: 0;
+
+h2{
+    color: #ef5839;
+}
+.section-two {
+    background: #2e354f;
+    color: #fff;
+}
+.section-two p{
+    color: #fff;
+}
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.section-two-link {
+    color:#000;
+}
+.btn-contact{
+    color: #fff;;
+    background: #ef5839;
+}
+.btn-contact:hover,
+.btn-contact:focus{
+    background: yellow;
+    color: black;
+}
+.btn-info{
+    background: #fff;
+    color:#000;
+}
+.btn-info:hover,
+.btn-info:focus{
+    background: black;
+    color: white;
 }
